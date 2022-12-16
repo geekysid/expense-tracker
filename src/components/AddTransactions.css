@@ -1,0 +1,50 @@
+.add-transaction--container {
+    background: #9FC9F3;
+    border: 1px solid #06113C;
+    color: #06113C;
+    font-weight: 600;
+}
+
+.add-transaction--form {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: .5rem;
+    padding: 0.5rem;
+}
+
+.add-transaction--form-item {
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem;
+    flex: 1;
+}
+
+.add-transaction--form-item--label{
+    margin-bottom: 0.2rem;
+    display:block;
+}
+.add-transaction--form-item--input{
+    border-radius: 5px;
+    border: 1px solid #000;
+    height: 25px;
+}
+
+.add-transaction--form---submit {
+    cursor: pointer;
+    padding: .75rem 1.5rem;
+    background: #A460ED;
+    border-radius: 10px;
+    margin-bottom: 0.5rem;
+    border: 1px solid #06113C;
+    transition: all 0.25s;
+}
+
+.add-transaction--form---submit:hover,
+.add-transaction--form---submit:active {
+    scale: 1.04;
+    background: #06113C;
+    border: solid 1px #A460ED;
+    color: #A460ED;
+
+}

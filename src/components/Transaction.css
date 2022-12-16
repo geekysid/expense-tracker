@@ -1,0 +1,41 @@
+.transaction {
+    display: flex;
+    flex-direction: row;
+    width: 95%;
+    /* justify-content: space-between; */
+    align-items: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    padding: 0.5rem;
+    margin: 0.5rem;
+    border-radius: 12px;
+    color: #E5B8F4;
+    background-color: #810CA8;
+}
+
+.transaction--desc {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex: 1;
+}
+
+.transaction--desc-text {
+    flex: 1;
+    margin: 0 1rem;
+}
+
+.transaction--desc-amount {
+    font-weight: 600;
+    border: 1px solid white;
+    padding: 0.5rem;
+    border-radius: 12px;
+    color: #2D033B;
+}
+
+.transaction--credit {
+    background: rgb(96, 131, 64);
+}
+
+.transaction--debit {
+    background: rgb(240, 137, 137);
+}
